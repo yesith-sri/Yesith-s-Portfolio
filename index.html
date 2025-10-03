@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Yesith's Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial:wght@400&display=swap"
+    rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      if (window.location.hash) {
+        history.replaceState(null, null, ' ');
+        window.scrollTo(0, 0);
+      }
+    });
+  </script>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Yesh</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+         <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <div class="header-social-links">
+        <a href="https://www.facebook.com/share/17FYQea4op/?mibextid=wwXIfr" class="facebook" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/_yesith.h_?igsh=djVmMzhyOHN4YWY2&utm_source=qr" class="instagram" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/yesith-sri" class="github" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/yesith-sri-hansana-7aa91a293/" class="linkedin" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+<section id="hero" class="hero section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row align-items-center content">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <h2>Crafting Digital Experiences with Passion</h2>
+        <p class="lead">Transforming ideas into elegant solutions through creative design and innovative development</p>
+        <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
+          <a href="#portfolio" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Let's Connect</a>
+        </div>
+        <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+          <div class="stat-item">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="hero-image">
+          <div style="position: relative; max-width: 450px; margin: 0 auto; padding: 20px;">
+            <img src="assets/img/profile/MON_8411.webp" 
+                 alt="Portfolio Hero Image" 
+                 data-aos="zoom-out" 
+                 data-aos-delay="300"
+                 style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 20px; position: relative; z-index: 2; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15); display: block;">
+            
+            <div style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; border: 3px solid #e87532; border-radius: 25px; z-index: 1;"></div>
+            
+            <div style="position: absolute; top: 0; left: 0; width: 40px; height: 40px; border-top: 4px solid #e87532; border-left: 4px solid #e87532; border-top-left-radius: 8px; z-index: 3;"></div>
+            
+            <div style="position: absolute; top: 0; right: 0; width: 40px; height: 40px; border-top: 4px solid #e87532; border-right: 4px solid #e87532; border-top-right-radius: 8px; z-index: 3;"></div>
+            
+            <div style="position: absolute; bottom: 0; left: 0; width: 40px; height: 40px; border-bottom: 4px solid #e87532; border-left: 4px solid #e87532; border-bottom-left-radius: 8px; z-index: 3;"></div>
+            
+            <div style="position: absolute; bottom: 0; right: 0; width: 40px; height: 40px; border-bottom: 4px solid #e87532; border-right: 4px solid #e87532; border-bottom-right-radius: 8px; z-index: 3;"></div>
+          </div>
+          <div class="shape-1"></div>
+          <div class="shape-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- About Section -->
+    <section id="about" class="about section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>Passionate about building user-friendly web applications and delivering creative digital solutions.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6 position-relative" data-aos="fade-right" data-aos-delay="200">
+            <div class="about-image">
+              <img src="assets/img/profile/IMG_0314.webp" alt="Profile Image" class="img-fluid rounded-4"
+                style="max-width: 80%; height: auto; display: block; margin: 0 auto;">
+            </div>
+          </div>
+          </style>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <span class="subtitle">About Me</span>
+              <h2>Backend &amp; Frontend Developer</h2>
+              <p class="lead mb-4">I am Yesith Sri Hansana, passionate about building user-friendly web applications and
+                delivering creative digital solutions.</p>
+              <p class="mb-4">Currently working as a Trainee Software Engineer, I enjoy learning new technologies and
+                solving real-world problems.</p>
+              <div class="personal-info">
+                <div class="row g-4">
+                    <div class="col-6"></div>
+                    <div class="info-item">
+                      <span class="label">Name</span>
+                      <span class="value">Yesith Sri Hansana</span>
+                    </div>
+                    </div>
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Phone</span>
+                      <span class="value">0776480935</span>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Age</span>
+                      <span class="value">22 Years</span>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Email</span>
+                      <span class="value">hansana@gmail.com</span>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Occupation</span>
+                      <span class="value">Trainee Software Engineer</span>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Nationality</span>
+                      <span class="value">Sinhala</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="signature mt-4">
+                <div class="signature-info">
+                  <h4>Yesith Sri Hansana</h4>
+                  <p>Trainee Software Engineer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+    <!-- Education Section -->
+<section id="education" class="education section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Education</h2>
+    <div class="title-shape">
+      <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+      </svg>
+    </div>
+    <p>My academic background and certifications in technology and communication.</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-4">
+
+      <!-- School Education -->
+      <div class="col-lg-6">
+        <div class="edu-card">
+          <div class="edu-header">
+            <i class="bi bi-mortarboard-fill"></i>
+            <h3>School Education</h3>
+          </div>
+          <div class="edu-body">
+            <div class="edu-item">
+              <h4>General Certificate of Education - Advance Level (G.C.E. A/L)</h4>
+              <p class="institution">Ananda College, Colombo, Sri Lanka</p>
+              <div class="badges">
+                <span class="badge badge-primary">Science for Technology</span>
+                <span class="badge badge-secondary">Admission No: 54328</span>
+              </div>
+              <div class="results">
+                <div class="result-item">
+                  <span class="subject">Information & Communication Technology:</span>
+                  <span class="grade">A</span>
+                </div>
+                <div class="result-item">
+                  <span class="subject">Science For Technology:</span>
+                  <span class="grade">A</span>
+                </div>
+                <div class="result-item">
+                  <span class="subject">Engineering Technology:</span>
+                  <span class="grade">B</span>
+                </div>
+                <div class="result-item">
+                  <span class="subject">General English:</span>
+                  <span class="grade">C</span>
+                </div>
+              </div>
+              <div class="scores">
+                <span class="score-item">Z-Score: <strong>2.4570</strong></span>
+                <span class="score-item">District Rank: <strong>15</strong></span>
+                <span class="score-item">Island Rank: <strong>113</strong></span>
+              </div>
+            </div>
+            <div class="edu-item">
+              <h4>Spoken English (2nd Session)</h4>
+              <p class="institution">The Institute of Western Music & Speech</p>
+              <p class="detail">All Island Graded Examinations - Prize for Initial Grade (2009)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- University Education -->
+      <div class="col-lg-6">
+        <div class="edu-card">
+          <div class="edu-header">
+            <i class="bi bi-building"></i>
+            <h3>University Education</h3>
+          </div>
+          <div class="edu-body">
+            <div class="edu-item">
+              <h4>Bachelor of Information Communication Technology (Hons)</h4>
+              <p class="institution">University of Sri Jayewardenepura</p>
+              <div class="badges">
+                <span class="badge badge-success">Undergraduate [Intake 08 (2022/23)]</span>
+              </div>
+              <p class="detail">4 years full-time degree course</p>
+              <p class="detail">Technology Stream (2020)</p>
+            </div>
+            <div class="edu-item">
+              <h4>ICET Certified Developer</h4>
+              <p class="institution">Institute of Computer Engineering Technology (ICET), Panadura, Sri Lanka</p>
+              <p class="detail">1 year ICD Software Development Program (2023)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="skills" class="skills section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Skills</h2>
+    <div class="title-shape">
+      <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+      </svg>
+    </div>
+    <p>Here are some of the technologies and tools I work with:</p>
+  </div>
+  
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-4">
+      
+      <!-- Programming Languages -->
+      <div class="col-md-6 col-lg-4">
+        <div class="skill-card">
+          <div class="skill-header">
+            <i class="bi bi-code-slash"></i>
+            <h4>Programming Languages</h4>
+          </div>
+          <div class="skill-body">
+            <div class="skill-items">
+              <span class="skill-item">Java</span>
+              <span class="skill-item">JavaScript</span>
+              <span class="skill-item">TypeScript</span>
+              <span class="skill-item">HTML</span>
+              <span class="skill-item">CSS</span>
+              <span class="skill-item">C</span>
+              <span class="skill-item">C#</span>
+              <span class="skill-item">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Frameworks -->
+      <div class="col-md-6 col-lg-4">
+        <div class="skill-card">
+          <div class="skill-header">
+            <i class="bi bi-layers"></i>
+            <h4>Frameworks</h4>
+          </div>
+          <div class="skill-body">
+            <div class="skill-items">
+              <span class="skill-item">Angular</span>
+              <span class="skill-item">Spring Boot</span>
+              <span class="skill-item">React.js</span>
+              <span class="skill-item">.NET</span>
+              <span class="skill-item">Tailwind CSS</span>
+              <span class="skill-item">Bootstrap</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- SQL Databases -->
+      <div class="col-md-6 col-lg-4">
+        <div class="skill-card">
+          <div class="skill-header">
+            <i class="bi bi-database"></i>
+            <h4>SQL Databases</h4>
+          </div>
+          <div class="skill-body">
+            <div class="skill-items">
+              <span class="skill-item">MySQL</span>
+              <span class="skill-item">PostgreSQL</span>
+              <span class="skill-item">SQLite</span>
+              <span class="skill-item">Microsoft SQL Server</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Tools -->
+      <div class="col-12">
+        <div class="skill-card tools-card">
+          <div class="skill-header">
+            <i class="bi bi-tools"></i>
+            <h4>Tools</h4>
+          </div>
+          <div class="skill-body">
+            <div class="skill-items tools-grid">
+              <span class="skill-item">Git</span>
+              <span class="skill-item">GitLab</span>
+              <span class="skill-item">GitHub</span>
+              <span class="skill-item">IntelliJ</span>
+              <span class="skill-item">VS Code</span>
+              <span class="skill-item">Postman</span>
+              <span class="skill-item">Docker</span>
+              <span class="skill-item">AWS</span>
+              <span class="skill-item">Jira</span>
+              <span class="skill-item">Figma</span>
+              <span class="skill-item">DBeaver</span>
+              <span class="skill-item">HeidiSQL</span>
+              <span class="skill-item">Swagger</span>
+              <span class="skill-item">ClickUp</span>
+              <span class="skill-item">Eclipse</span>
+              <span class="skill-item">NetBeans</span>
+              <span class="skill-item">KeyClock</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+    <!-- Experience Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Experience</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>My professional experience and journey as a software engineer intern.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          <div class="col-12">
+            <div class="resume-wrapper">
+              <div class="resume-block" data-aos="fade-up">
+                <h2>Work Experience</h2>
+                <div class="timeline">
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">The Road to Rights</h4>
+                      <span class="period">Aug 2024 - Present</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Software Engineer Intern</h3>
+                      <p class="description">
+                        As a Software Engineer Intern, I contribute to the design, development, and maintenance of
+                        software solutions. I collaborate with the team to build scalable web applications, gain
+                        hands-on experience with various technologies, and assist in testing and code reviews. This role
+                        allows me to apply my skills in real-world scenarios and work on projects aimed at addressing
+                        important societal issues.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-left">
+                      <h4 class="company">Vizualabs.PVT.LTD</h4>
+                      <span class="period">2024 - Present</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Co-Founder</h3>
+                      <p class="description">
+                        I am the Co-Founder and also working as a developer at Vizualabs. I contribute to a variety of
+                        projects including <a href="https://www.wenasevents.com/" target="_blank">wensaevents.com</a>,
+                        <a href="https://chamaraliyanageassociates.com/"
+                          target="_blank">ChamaraliyangeAssosiates.com</a>, and R2R projects. I am also involved in
+                        delivering solutions for overseas clients and contributing to multiple web and software
+                        development projects across different domains.
+                      </p>
+                      <!-- You can add an Education section here if needed -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section><!-- /Experience Section -->
+    <!-- Projects Section -->
+
+    
+<section id="projects" class="projects section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="title-shape">
+      <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+      </svg>
+    </div>
+    <p>Some of the key projects I have developed or contributed to:</p>
+  </div>
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-4">
+
+      <!-- Weather Application -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <div class="project-header">
+            <h4>Weather Application</h4>
+          </div>
+          <div class="project-body">
+            <div class="project-detail">
+              <span class="detail-label">Technologies:</span>
+              <span class="detail-value">HTML5, CSS3, JavaScript</span>
+            </div>
+            <div class="project-detail">
+              <span class="detail-label">Features:</span>
+              <span class="detail-value">Real-time weather data fetching, dynamic backgrounds, weather details panel, city search, responsive design, error handling</span>
+            </div>
+            <div class="project-detail">
+              <span class="detail-label">Techniques:</span>
+              <span class="detail-value">Asynchronous programming, event handling, responsive design implementation</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://lnkd.in/ebry6HAy" target="_blank" class="btn btn-sm btn-outline-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Clothify Store POS System -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <div class="project-header">
+            <h4>Clothify Store POS System</h4>
+          </div>
+          <div class="project-body">
+            <div class="project-detail">
+              <span class="detail-label">Technologies:</span>
+              <span class="detail-value">Java, JavaFX, JFoenix, MySQL, Hibernate, Maven</span>
+            </div>
+            <div class="project-detail">
+              <span class="detail-label">Features:</span>
+              <span class="detail-value">User management with secure authentication, product and order management, employee management, real-time data visualization, email integration, stock management</span>
+            </div>
+            <div class="project-detail">
+              <span class="detail-label">Highlights:</span>
+              <span class="detail-value">Layered architecture, SOLID principles, responsive UI, robust security, version control with GitHub, thorough testing</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://lnkd.in/e7bKCnys" target="_blank" class="btn btn-sm btn-outline-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Student Management System -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <div class="project-header">
+            <h4>Student Management System</h4>
+          </div>
+          <div class="project-body">
+            <div class="project-detail">
+              <span class="detail-label">Technologies:</span>
+              <span class="detail-value">Spring Boot, Angular, TypeScript, MySQL, IntelliJ</span>
+            </div>
+            <div class="project-detail">
+              <span class="detail-label">Features:</span>
+              <span class="detail-value">Comprehensive CRUD operations, responsive design, efficient database management</span>
+            </div>
+            <div class="project-detail">
+              <span class="detail-label">Highlights:</span>
+              <span class="detail-value">Seamless integration of front-end and back-end technologies, robust and user-friendly system</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CLCA (Chamara Liyanage Chartered Architects) -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <div class="project-header">
+            <h4>CLCA (Chamara Liyanage Chartered Architects)</h4>
+          </div>
+          <div class="project-body">
+            <div class="project-detail">
+              <span class="detail-label">Technologies:</span>
+              <span class="detail-value">React.js, Tailwind CSS</span>
+            </div>
+            <div class="project-detail">
+              <span class="detail-label">Version Control:</span>
+              <span class="detail-value">GitHub</span>
+            </div>
+            <div class="project-detail">
+              <span class="detail-label">Features & Highlights:</span>
+              <span class="detail-value">Sleek, interactive, fully responsive web platform, seamless user experience, modern design principles</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://chamaraliyanageassociates.com/" target="_blank" class="btn btn-sm btn-outline-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wensa Events.com Event Management System -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <div class="project-header">
+            <h4>Wensa Events.com Event Management System</h4>
+          </div>
+          <div class="project-body">
+            <div class="project-detail">
+              <span class="detail-label">Description:</span>
+              <span class="detail-value">Event management system for Wensa Events.com</span>
+            </div>
+            <div class="project-detail">
+              <span class="detail-label">Role:</span>
+              <span class="detail-value">Developer and contributor to the project</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://www.wenasevents.com/" target="_blank" class="btn btn-sm btn-outline-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  </main><!-- End #main -->
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
